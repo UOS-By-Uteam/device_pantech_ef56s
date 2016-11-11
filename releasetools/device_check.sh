@@ -14,6 +14,6 @@ elif grep -q "IM-A910K" /dev/block/mmcblk0p10 ; then
 
 fi
 
-rm -rf /system/etc/firmware_ef63S
+rm -rf /system/etc/firmware_ef63s
 rm -rf /system/etc/firmware_ef63k
 rm -rf /system/bin/device_check.sh
