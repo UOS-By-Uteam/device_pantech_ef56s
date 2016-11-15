@@ -15,8 +15,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from ef63l device
-$(call inherit-product, device/pantech/ef63l/device.mk)
+# Inherit from ef56s device
+$(call inherit-product, device/pantech/ef56s/device.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -25,16 +25,16 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Call the proprietary setup
-$(call inherit-product-if-exists, vendor/pantech/ef63l/ef63l-vendor.mk)
+$(call inherit-product-if-exists, vendor/pantech/ef56s/ef56s-vendor.mk)
 
-PRODUCT_NAME := cm_ef63l
-PRODUCT_DEVICE := ef63l
+PRODUCT_NAME := cm_ef56s
+PRODUCT_DEVICE := ef56s
 PRODUCT_MANUFACTURER := PANTECH
-PRODUCT_MODEL := IM-A910L
+PRODUCT_MODEL := IM-A880S
 
-PRODUCT_GMS_CLIENTID_BASE := android-ef63l
+PRODUCT_GMS_CLIENTID_BASE := android-ef56s
 
 PRODUCT_BRAND := PANTECH
 TARGET_VENDOR := PANTECH
-TARGET_VENDOR_PRODUCT_NAME := ef63l
-TARGET_VENDOR_DEVICE_NAME := ef63l
+TARGET_VENDOR_PRODUCT_NAME := ef56s
+TARGET_VENDOR_DEVICE_NAME := ef56s

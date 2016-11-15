@@ -64,17 +64,6 @@ void vendor_load_properties()
     property_set("persist.sys.isUsbOtgEnabled", "true");
     property_set("persist.pantech.usb.version=0", "0");
     property_set("ro.product.model", device_buf);
+    property_set("ro.product.device", "ef56s");
 
-    if (strstr(device_buf, "IM-A910S")) 
-    {
-        property_set("ro.product.device", "ef63s");
-    } 
-    else if (strstr(device_buf, "IM-A910K")) 
-    {
-        property_set("ro.product.device", "ef63k");
-    } 
-    else if (strstr(device_buf, "IM-A910L"))
-    {
-        property_set("ro.product.device", "ef63l");
-    }
 }

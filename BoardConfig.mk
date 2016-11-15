@@ -15,7 +15,7 @@
 #
 
 BOARD_VENDOR := pantech
-PLATFORM_PATH := device/pantech/ef63l
+PLATFORM_PATH := device/pantech/ef56s
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
@@ -54,7 +54,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)/releasetools
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ef63l,ef63s,ef63k
+TARGET_OTA_ASSERT_DEVICE := ef56s
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -134,8 +134,8 @@ NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_ef63l
-TARGET_RECOVERY_DEVICE_MODULES := libinit_ef63l
+TARGET_INIT_VENDOR_LIB := libinit_ef56s
+TARGET_RECOVERY_DEVICE_MODULES := libinit_ef56s
 TARGET_UNIFIED_DEVICE := true
 
 # Keymaster
@@ -204,5 +204,5 @@ TARGET_USERIMAGES_USE_EXT4 := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
--include vendor/pantech/ef63l/BoardConfigVendor.mk
+-include vendor/pantech/ef56s/BoardConfigVendor.mk
 

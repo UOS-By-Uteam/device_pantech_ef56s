@@ -1,3 +1,3 @@
-add_lunch_combo cm_ef63l-user
-add_lunch_combo cm_ef63l-userdebug
-add_lunch_combo cm_ef63l-eng
+add_lunch_combo cm_ef56s-user
+add_lunch_combo cm_ef56s-userdebug
+add_lunch_combo cm_ef56s-eng

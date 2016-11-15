@@ -3,7 +3,7 @@
 set -e
 
 export VENDOR=pantech
-export DEVICE=ef63l
+export DEVICE=ef56s
 
 if [ $# -eq 0 ]; then
   SRC=adb

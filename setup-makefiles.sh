@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export VENDOR=pantech
-export DEVICE=ef63l
+export DEVICE=ef56s
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
@@ -114,7 +114,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifneq (\$(filter ef63l,\$(TARGET_DEVICE)),)
+ifneq (\$(filter ef56s,\$(TARGET_DEVICE)),)
 
 
 include \$(CLEAR_VARS)
